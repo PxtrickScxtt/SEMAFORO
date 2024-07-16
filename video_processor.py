@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 
+
 # Crear objeto para la detección de movimiento
 detector_movimiento = cv2.createBackgroundSubtractorMOG2(history=100, varThreshold=30, detectShadows=True)
 
